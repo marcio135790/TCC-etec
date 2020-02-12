@@ -1,0 +1,164 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px; 
+ text-align: center;
+}
+
+.cor-primaria{
+	background-color: #B20000;
+  color: white;  
+}
+
+.cor-secundaria{
+	background-color:#231f20 ;
+}
+
+.cor-terciaria{
+	background-color: #D3D3D3;
+}
+
+.fmt-lateral{
+	text-align: center;
+	padding: 5px;
+
+}
+
+.fmt-lateral2{
+	text-align: center;
+	padding: 2px;
+	display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 6px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.fmt-lateral3{
+	text-align: center;
+	padding: 2px;
+	display: inline-block;
+    width: 150px;    
+    margin: 6px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+.cabecalho{
+	padding: 10px;
+}
+
+.login{
+	color: white;
+}
+
+#img-logo{
+	border-radius: 7px;
+	width: auto;
+	height: auto;
+}
+
+.borda{
+  border: 1px solid  #B20000;
+ 	padding: 5px;
+ 	border-bottom-left-radius: 25px;
+ 	border-top-right-radius: 25px;
+ 	grid-row-end: span 3;
+}
+
+.img-cursos{
+	text-align: left;	
+}
+
+.button {
+  background-color: #B20000; 
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+a:link, a:visited {
+ text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: #B20000;
+  color: white;
+  font-size:150%;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+
+/* acervo*/
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #D3D3D3;}
+
+#customers tr:hover {background-color: #819FF7;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #B20000;
+  color: white;
+}
+
+/*menu curso*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #B20000}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

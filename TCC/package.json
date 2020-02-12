@@ -1,0 +1,16 @@
+{
+  "name": "projeto_tcc",
+  "version": "1.0.0",
+  "description": "trabalho de conclusão de curso etec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marcio,luis,matheus,melo,ferrianci,rafael",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.14.3"
+  }
+}
